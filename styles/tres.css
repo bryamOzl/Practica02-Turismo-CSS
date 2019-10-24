@@ -190,15 +190,33 @@ article > dd{
     -webkit-text-stroke: 1px black;
 }
 
-/*72.*/
+/*72.Estilo para el parrafo 4 */
 .texto4{
     color: white;
     text-decoration-line: underline;
     font-size: 14pt;
+    text-align: justify;
 }
 
 /*73.*/
+.titulo5{
+    background-color: blue;
+    color: white;
+    font-size: 19pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 /*74.*/
+.texto5{
+    font-family: "Consolas", monospace;
+    color: white;
+    text-align: justify;
+}
 
-/*75.*/
+/*75.Estilos para el parrafo 6*/
+.texto6{
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    color: white; 
+}
