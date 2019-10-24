@@ -155,32 +155,31 @@ footer p{
 
 /*59. Formato para el segundo parrafo con fondo y tipo de letra*/
 .parrafo2{
-    background-color: rgb(251, 255, 6);
     text-decoration: none;
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 
 /*60.Formato para el titulo h1 Ecuador Travel*/
 #travel{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(10, 10, 10);
+    color: rgb(250, 8, 8);
 }
 
 /*61. Formato para el texto de color azul*/
 .textor{
-    background-color: rgb(6, 31, 253);
-    color: seashell;
+    color: rgb(10, 10, 10);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-display: inherit;
     text-decoration: initial;
+    text-align: justify;
 }
 
 /*62. Formato para el texto con fondo Rojo*/
 .textoa{
-    background-color: red;
-    color: seashell;
+    color: rgb(15, 15, 15);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
 }
