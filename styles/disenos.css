@@ -70,6 +70,7 @@ form {
     font-family: Arial;
     font-size: 12pt;
 }
+
 /*81. Formato para los titulos dentro de las wtiquetas h3*/
 h3{
     color: rgb(163, 238, 13);
@@ -78,13 +79,13 @@ h3{
     font-size: 16pt;
 }
 
-/*82.*/
+/*82. Posicionamiento y estilo del texto*/
 #text {
     width: 68%;
     float: left;
 }
 
-/*83. Posicionamiento y estilo de la Columna2 en el texto*/
+/*83. Posicionamiento y estilo de la Columna2 imagen*/
 #col {
     width: 28%;
     float: left;
@@ -93,22 +94,48 @@ h3{
 
 /*SIERRA*/
 
-/*84.*/
+/*84. Formato de borde par alas imagenes*/
 .bordei{
     border-color: rgb(255, 255, 255);
     border-style: double;
 }
-/*85.*/
+/*85. Formato del titulo de la SIERA*/
+.tituloS{
+    text-align: center;
+    color: brown;
+    font-size: 35pt;
+    font-family: 'Times New Roman';
+}
 
-/*86.*/
+/*86. FOrmato para los titulos en h3*/
+.tit{
+    color: rgb(15, 222, 230);
+    font-family: Verdana;
+    font-size: 18pt;
+}
 
-/*87.*/
+/*87. Pocicionamoento del texto*/
+#text1p  {
+    width: 68%;
+    float: right;
+}
 
-/*88.*/
 
+/*88. Posicionamiento de la imagen*/
+#col1p {
+    width: 28%;
+    float: left;
+
+}
 
 /*ORIENTE*/
-/*89.*/
+/*89. Esitilo del texto para el contenido*/
+.textos1{
+    color: white;
+    text-align: justify;
+    font-family: Impact;
+    font-size: 12pt;
+}
 
 /*90.*/
 
