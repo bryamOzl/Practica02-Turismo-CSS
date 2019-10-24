@@ -1,0 +1,38 @@
+#mensaje {
+    background-color: #fff;
+    width: 380px;
+    height: 150px;
+    font-family: Arial;
+}
+
+#nombre, #email {
+    background-color: white;
+    width: 380px;
+    height: 27px;
+    font-size: 14px;
+}
+
+#button {
+    color: #000;
+    width: 100px;
+    height: 35px;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 400px;
+    float: left;
+}
+
+/*Columna2c*/
+#columna2c {
+    border-radius:10px;/*El estandar por defecto*/
+    width: 78%;
+    float: left;
+    margin: 6px;
+    padding: 10px;
+}
