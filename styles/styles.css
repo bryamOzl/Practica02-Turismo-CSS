@@ -1,0 +1,175 @@
+
+body{
+    background-image: url(/Practica02/images/leaves.png);
+}
+
+#borde {
+    border-color: rgb(17, 17, 17);
+    border-style: double;
+}
+
+/*Colocacion para la imagen ec*/
+.logo {
+    width: 34%;
+    float: left;
+}
+
+/*Colocacion y estilo para el Titulo del index*/
+.titulo {
+    width: 45%;
+    float: left;
+    font-size:34px;
+    font-family: "Baskerville Old Face";
+    color: rgb(251, 255, 0);
+    margin: 0px;
+}
+
+/*Colocacion para la imagen escudo*/
+.escudo {
+    width: 21%;
+    float: left;
+}
+
+/*Estilo para el footer*/
+footer{
+    clear: both;
+}
+
+/*Estilos para ajustar la pagina*/
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1250px;
+    min-width: 640px;
+}
+
+body > header {
+    margin: 0px;
+    overflow: hidden;
+}
+/*
+body > nav {
+    width: 20%;
+    float: left;
+    margin: 0 0 0 1.5%;
+}
+
+body > article#about_tss {
+    width: 51%;
+    float: left;
+    margin: 0 3% 0 3%;
+}
+
+body > aside {
+    width: 20%;
+    float: left;
+    margin: 0 1.5% 0 0;
+}
+
+body > article#about_tss img {
+    float: right;
+    width: 40%;
+    margin: 0px 0 10px 10px;
+}
+
+article.syllabus {
+    float: left;
+    width: 74.5%;
+    margin: 0 4% 0 0%;
+}
+
+body > footer {
+    width: 100%;
+    clear: inherit;
+} 
+*/
+
+/*ESTILOS PARA EL MENU*/
+nav{
+    /*Bordes redondeados*/
+    border-radius:10px;/*El estandar por defecto*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(3, 3, 3)), to(rgb(27, 150, 207)));/*Para chrome y Safari*/
+    overflow:hidden;
+    padding:4px;
+    width:99.4%;
+}
+
+nav ul{
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+}
+
+nav ul li{
+    /*Bordes redondeados*/
+    border-radius:5px;/*Estandar por defecto*/
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+
+}
+
+nav ul li:hover{
+    /*Degradado de fondo*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #E3E3E3));/*Chrome y Safari*/
+    background-image: linear-gradient(top, #FFF, #E3E3E3);/*Estandar por defecto*/
+}
+
+nav ul li a{
+    color:#f7f7f7;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    /*Transiciones*/
+    transition: 0.4s linear all;
+}
+
+nav ul li a:hover {
+    color:rgb(8, 8, 8);
+}
+
+/*Estilos para la etiqueta h2 del subtitulo*/
+#subtitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+    color: rgb(6, 31, 253);
+}
+
+/*Estilos para el foter pero solo para lo que esta dentro de una etiqueta p*/
+footer p{
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+}
+
+/*clase para fondo negro*/
+.fondo{
+    background-color: rgb(3, 3, 3);
+}
+
+/*Estilos para el texto del index*/
+#introduccion{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/*Formato para la parte de informacion 3 columnas*/
+.imagenesi {
+    width: 23%;
+    float: left;
+}
+
+.info {
+    width: 51%;
+    float: left;
+    padding: 5px;
+    border: 5.5px;
+}
+
+.imagenesd {
+    width: 23%;
+    float: right;
+}
