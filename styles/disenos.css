@@ -1,3 +1,4 @@
+/*54. Estilo para el cuadro de mensaje*/
 #mensaje {
     background-color: #fff;
     width: 380px;
@@ -5,6 +6,7 @@
     font-family: Arial;
 }
 
+/*55. Formato y estilo para la parte de email y nombre*/
 #nombre, #email {
     background-color: white;
     width: 380px;
@@ -12,12 +14,14 @@
     font-size: 14px;
 }
 
+/*56. Estilo para el boton de enviar*/
 #button {
     color: #000;
     width: 100px;
     height: 35px;
 }
 
+/*57. Estilos para la etiqueta form del formulario*/
 form {
     margin: 0 auto;
     margin-top: 0px;
@@ -28,7 +32,7 @@ form {
     float: left;
 }
 
-/*Columna2c*/
+/*58. Estilo para la columna dos de el contacto Columna2c*/
 #columna2c {
     border-radius:10px;/*El estandar por defecto*/
     width: 78%;

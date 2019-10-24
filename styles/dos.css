@@ -1,4 +1,4 @@
-/*Estilos para ajustar la pagina*/
+/*40. Estilos para ajustar la pagina*/
 body {
     margin: 0 auto;
     width: 100%;
@@ -9,29 +9,30 @@ body {
     border-style: solid;*/
 }
 
+/*41. Aqui le damos al header un margin de 0 con width del 100%*/
 body > header {
     margin: 0px;
     overflow: hidden;
 }
 
-/*Estilo para aplicar borde dobel*/
+/*42. Estilo para aplicar borde dobel*/
 #borde {
     border-color: rgb(17, 17, 17);
     border-style: double;
 }
 
-/*Para poner un fondo negro*/
+/*43. Para poner un fondo negro*/
 #negro{
     background-color: black;
 }
 
-/*Estilo para aplicar un borde a las secciones*/
+/*44. Estilo para aplicar un borde a las secciones*/
 .borde2{
     border-color: rgb(0, 0, 0);
     border-style: solid;
 }
 
-/*Columna1*/
+/*45. Posicionamiento y estilo de la Columna1*/
 #columna1 {
     width: 17%;
     float: left;
@@ -40,7 +41,7 @@ body > header {
     border-radius:10px;/*El estandar por defecto*/
 }
 
-/*Columna2*/
+/*46. Posicionamiento y estilo de la Columna2*/
 #columna2 {
     border-radius:10px;/*El estandar por defecto*/
     width: 80%;
@@ -48,19 +49,19 @@ body > header {
     margin: 6px;
 }
 
-/*Estilo para el footer*/
+/*47. Estilo para el footer*/
 footer{
     clear: both;
 }
 
-/*Estilos para el foter pero solo para lo que esta dentro de una etiqueta p*/
+/*48. Estilos para el foter pero solo para lo que esta dentro de una etiqueta p*/
 footer p{
     color: rgb(10, 10, 10);
     font-size: 12px;
 }
 
 
-/*Formato para el menu de navegacion*/
+/*49. Formato para el menu de navegacion*/
 nav{
     /*Bordes redondeados*/
     border-radius:10px;/*El estandar por defecto*/
@@ -69,14 +70,14 @@ nav{
     width:97.4%;
 }
 
-/*Formato para lo que se encuentra dentro del menu*/
+/*50. Formato para lo que se encuentra dentro del menu*/
 nav ul{
     list-style:none;
     margin:0 10px 0 10px;
     padding:0;
 }
 
-/*Formato para las opciones que estan dentro del menu y las letras estilos de fuente*/
+/*51. Formato para las opciones que estan dentro del menu y las letras estilos de fuente*/
 nav ul li{
     /*Bordes redondeados*/
     border-radius:5px;/*Estandar por defecto*/
@@ -89,13 +90,13 @@ nav ul li{
 
 }
 
-/*Formato para pintar cuando se pasa por la selecion de un menu*/
+/*52. Formato para pintar cuando se pasa por la selecion de un menu*/
 nav ul li:hover{
     /*Degradado de fondo*/
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(250, 250, 250)), to( #E3E3E3));/*Chrome y Safari*/
 }
 
-/*Formato para las letras del menu color*/
+/*53. Formato para las letras del menu color*/
 nav ul li a{
     color:#fd0000;
     display:block;
