@@ -1,20 +1,21 @@
-
+/*1. Sisve para cargar el fondo en la pagina index.*/
 body{
     background-image: url(/Practica02/images/leaves.png);
 }
 
+/*2. Nos permite crer un id que sirve para crear un borde doble*/
 #borde {
     border-color: rgb(17, 17, 17);
     border-style: double;
 }
 
-/*Colocacion para la imagen ec*/
+/*3. Colocacion para la imagen ec*/
 .logo {
     width: 34%;
     float: left;
 }
 
-/*Colocacion y estilo para el Titulo del index*/
+/*4. Colocacion y estilo para el Titulo del index*/
 .titulo {
     width: 45%;
     float: left;
@@ -24,83 +25,52 @@ body{
     margin: 0px;
 }
 
-/*Colocacion para la imagen escudo*/
+/*5. Colocacion para la imagen escudo*/
 .escudo {
     width: 21%;
     float: left;
 }
 
-/*Estilo para el footer*/
+/*6. Estilo para el footer*/
 footer{
     clear: both;
 }
 
-/*Estilos para ajustar la pagina*/
+/*7. Estilos para ajustar la pagina el body que no se distorsione*/
 
 body {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1250px;
-    min-width: 640px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1250px;
+	min-width: 640px;
 }
 
+/*8. Aqui le damos al header un margin de 0 con width del 100%*/
 body > header {
-    margin: 0px;
-    overflow: hidden;
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
 }
-/*
-body > nav {
-    width: 20%;
-    float: left;
-    margin: 0 0 0 1.5%;
-}
-
-body > article#about_tss {
-    width: 51%;
-    float: left;
-    margin: 0 3% 0 3%;
-}
-
-body > aside {
-    width: 20%;
-    float: left;
-    margin: 0 1.5% 0 0;
-}
-
-body > article#about_tss img {
-    float: right;
-    width: 40%;
-    margin: 0px 0 10px 10px;
-}
-
-article.syllabus {
-    float: left;
-    width: 74.5%;
-    margin: 0 4% 0 0%;
-}
-
-body > footer {
-    width: 100%;
-    clear: inherit;
-} 
-*/
 
 /*ESTILOS PARA EL MENU*/
+/*9. En la etiqueta nav osea el menu sirve para redondear los bordes y cambiar el color */
 nav{
     /*Bordes redondeados*/
-    border-radius:10px;/*El estandar por defecto*/
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(3, 3, 3)), to(rgb(27, 150, 207)));/*Para chrome y Safari*/
+    border-radius:10px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(3, 3, 3)), to(rgb(27, 150, 207)));
     overflow:hidden;
     padding:4px;
     width:99.4%;
 }
 
+/*10. Aqui nos cambiamos los elementos de la etiqueta ul quitandole el stilo y dandole margin y bording*/
 nav ul{
     list-style:none;
     margin:0 10px 0 10px;
     padding:0;
 }
 
+/*11. Aqui en esta etiqueta li del menu le redondeamor y cambiamos su formato tambien le ponemos en negrita*/
 nav ul li{
     /*Bordes redondeados*/
     border-radius:5px;/*Estandar por defecto*/
@@ -113,12 +83,14 @@ nav ul li{
 
 }
 
+/*12. Aqui damos un degradado al fondo cuando pasamos el mouse por algun elemento del menu */
 nav ul li:hover{
     /*Degradado de fondo*/
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #E3E3E3));/*Chrome y Safari*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #E3E3E3));
     background-image: linear-gradient(top, #FFF, #E3E3E3);/*Estandar por defecto*/
 }
 
+/*13. Aqui cambiamos los elemntos de la etiqueta a del menu para darle color a las letras sin decoracion*/
 nav ul li a{
     color:#f7f7f7;
     display:block;
@@ -128,40 +100,42 @@ nav ul li a{
     transition: 0.4s linear all;
 }
 
+/*14. Aqui le damos un color negro cuando selecionamos el algun elemento del menu*/
 nav ul li a:hover {
     color:rgb(8, 8, 8);
 }
 
-/*Estilos para la etiqueta h2 del subtitulo*/
+/*15. Estilos para la etiqueta h2 del subtitulo*/
 #subtitulo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:25px;
     color: rgb(6, 31, 253);
 }
 
-/*Estilos para el foter pero solo para lo que esta dentro de una etiqueta p*/
+/*16. Estilos para el foter pero solo para lo que esta dentro de una etiqueta p*/
 footer p{
     color: rgb(255, 0, 0);
     font-size: 12px;
 }
 
-/*clase para fondo negro*/
+/*17. clase para fondo negro*/
 .fondo{
     background-color: rgb(3, 3, 3);
 }
 
-/*Estilos para el texto del index*/
+/*18. Estilos para el texto del index*/
 #introduccion{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
-/*Formato para la parte de informacion 3 columnas*/
+/*19. Formato para la parte de informacion 3 columnas parte izquierda*/
 .imagenesi {
     width: 23%;
     float: left;
 }
 
+/*21. Formato para la parte de informacion 3 columnas parte centro*/
 .info {
     width: 51%;
     float: left;
@@ -169,6 +143,7 @@ footer p{
     border: 5.5px;
 }
 
+/*22. Formato para la parte de informacion 3 columnas parte derecha*/
 .imagenesd {
     width: 23%;
     float: right;
