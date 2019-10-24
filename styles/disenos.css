@@ -158,26 +158,49 @@ h3{
     font-size: 12pt;
 }
 
-/*93.*/
+/*93. Pocicionamiento de el texto en la pagina del oriente*/
 #orip {
     width: 68%;
     float: left;
 }
 
-/*94.*/
+/*94. Posicion de las imagens en la pagina del oriente*/
 #oripi {
     width: 28%;
     float: left;
 }
 
 /*INSULAR*/
-/*95.*/
+/*95. Estilo para los titulos de oriente h1*/
+.tituloI{
+    text-align: center;
+    color: rgb(1, 30, 196);
+    font-size: 35pt;
+    font-family: 'Times New Roman';
+}
 
-/*96.*/
+/*96. Formato para ls titulos de h2 en la pagina insular*/
+.teinsular{
+    font-family: Impact;
+    font-size: 22pt;
+    color: rgba(255, 167, 5, 0.904);
+}
 
-/*97.*/
+/*97. Estilos para el texto de insular*/
+.tinsular{
+    font-family: Georgia;
+    font-size: 14pt;
+    color: white;
+    text-align: justify;
+}
 
-/*98.*/
+/*98. Estilos para h4 en el formato*/
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: tomato;
+    text-align: justify;
+    background-color: white;
+}
 
 /*99.*/
 
