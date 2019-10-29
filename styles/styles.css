@@ -9,6 +9,11 @@ body{
     border-style: double;
 }
 
+#bordef {
+    border-color: rgb(17, 17, 17);
+    border-style: double;
+}
+
 /*3. Colocacion para la imagen ec*/
 .logo {
     width: 34%;
@@ -80,7 +85,6 @@ nav ul li{
     font-weight:bold;
     margin-right:10px;
     text-align:center;
-
 }
 
 /*12. Aqui damos un degradado al fondo cuando pasamos el mouse por algun elemento del menu */
