@@ -799,6 +799,22 @@ body > footer  {
 
 ## d. La evidencia de la validación de las hojas de estilos CSS.⌨️
 
+* Validacion de styles.css
+
+![1](https://user-images.githubusercontent.com/34387442/67780303-eb54f380-fa33-11e9-99b4-a66d867de24c.JPG)
+
+* Validacion de tres.css
+
+![2](https://user-images.githubusercontent.com/34387442/67780359-ff98f080-fa33-11e9-8148-a4c887d93f9d.JPG)
+
+* Validacion de dos.css
+
+![3](https://user-images.githubusercontent.com/34387442/67780451-1c352880-fa34-11e9-908a-89b8082f19c7.JPG)
+
+* Validacion de disenos.css
+
+![4](https://user-images.githubusercontent.com/34387442/67780488-26572700-fa34-11e9-8186-28d93882ed97.JPG)
+
 ## e. El informe debe incluir conclusiones apropiadas.⌨️
 ### Concluciones
 ```
